@@ -1,5 +1,9 @@
 # SPACY NLP issues
 
+## Prerequisities
+
+see https://github.com/kengz/spacy-nlp/blob/master/README.md
+
 ## Installation
 
 * `npm install`
