@@ -1,0 +1,16 @@
+{
+  "name": "spacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "spacy": "node spacy_server.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "spacy-nlp": "^1.0.9"
+  }
+}
