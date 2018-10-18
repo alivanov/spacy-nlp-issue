@@ -28,3 +28,4 @@ Per https://github.com/kengz/spacy-nlp/blob/master/README.md
 * python3 -m pip install -U socketIO-client-nexus
 * update node_modules/spacy-nlp/src/client.py#13 to be `from socketIO_client_nexus import SocketIO, WebsocketTransport`
 * restart the spacy server
+* update node_modules/spacy-nlp/src/py/nlp.py#126 to be `doc = nlp(input)` to get rid of `Cannot read property '0' of null` exception.
